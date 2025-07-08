@@ -25,7 +25,7 @@ const Hero = () => {
           <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-cyan-400 to-emerald-400 p-1 animate-pulse">
             <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center overflow-hidden">
               <img
-                src="/src/assets/images/Leonardo.jpg"
+                src="/images/Leonardo.jpg"
                 alt="Foto de perfil de Francisco Leonardo"
                 className="w-full h-full object-cover rounded-full"
               />

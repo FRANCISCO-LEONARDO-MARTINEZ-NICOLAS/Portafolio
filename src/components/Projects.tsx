@@ -45,12 +45,12 @@ const PROJECTS_DATA: Project[] = [
     images: {
       after: [
         {
-          src: "/src/assets/images/despues-1.jpg",
+          src: "/images/despues-1.jpg",
           alt: "Panel de administración de OptiCare",
           description: "Dashboard moderno y centralizado para gestión óptica"
         },
         {
-          src: "/src/assets/images/despues-2.jpg",
+          src: "/images/despues-2.jpg",
           alt: "Modelo de datos NoSQL",
           description: "Diagrama de entidades y relaciones del sistema"
         }
@@ -76,17 +76,17 @@ const PROJECTS_DATA: Project[] = [
     images: {
       after: [
         {
-          src: "/src/assets/images/cartografia-1.jpg",
+          src: "/images/cartografia-1.jpg",
           alt: "Pantalla principal de la Cartografía del Pensamiento Latinoamericano",
           description: "Interfaz de bienvenida con búsqueda y mapa interactivo de países."
         },
         {
-          src: "/src/assets/images/cartografia-2.jpg",
+          src: "/images/cartografia-2.jpg",
           alt: "Detalle de pensador latinoamericano",
           description: "Panel de información de José Vasconcelos, México, con aportes y frase clave."
         },
         {
-          src: "/src/assets/images/cartografia-3.jpg",
+          src: "/images/cartografia-3.jpg",
           alt: "Mapa interactivo y panel lateral",
           description: "Visualización del mapa y panel lateral con información de pensadores."
         }
