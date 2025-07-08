@@ -150,9 +150,6 @@ const WhyHireMe = () => {
                 Iniciar Conversación
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
-              <button className="inline-flex items-center gap-2 border-2 border-emerald-400 hover:bg-emerald-400 hover:text-slate-900 px-6 py-3 rounded-lg font-semibold transition-all duration-300">
-                Ver Disponibilidad
-              </button>
             </div>
           </div>
         </div>
