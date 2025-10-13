@@ -6,31 +6,31 @@ const TechStack = () => {
 
   const technologies = [
     // Frontend
-    { name: 'React', category: 'frontend', level: 75, icon: '⚛️', description: 'SPAs, componentes funcionales y manejo de estado' },
-    { name: 'Angular', category: 'frontend', level: 60, icon: '🅰️', description: 'Fundamentos para apps modulares empresariales' },
-    { name: 'TypeScript', category: 'frontend', level: 72, icon: '🔷', description: 'JavaScript tipado para proyectos más robustos' },
-    { name: 'Tailwind CSS', category: 'frontend', level: 78, icon: '🎨', description: 'Interfaces responsivas y limpias' },
-    { name: 'HTML5/CSS3', category: 'frontend', level: 80, icon: '🌐', description: 'Buenas prácticas en maquetado web' },
+    { name: 'React', category: 'frontend', level: 45, icon: '⚛️', description: 'SPAs, componentes funcionales y manejo de estado' },
+    { name: 'Angular', category: 'frontend', level: 37, icon: '🅰️', description: 'Fundamentos para apps modulares empresariales' },
+    { name: 'TypeScript', category: 'frontend', level: 45, icon: '🔷', description: 'JavaScript tipado para proyectos más robustos' },
+    { name: 'Tailwind CSS', category: 'frontend', level: 45, icon: '🎨', description: 'Interfaces responsivas y limpias' },
+    { name: 'HTML5/CSS3', category: 'frontend', level: 45, icon: '🌐', description: 'Buenas prácticas en maquetado web' },
 
     // Backend
-    { name: '.NET Core', category: 'backend', level: 78, icon: '🔵', description: 'Desarrollo de APIs REST con buenas prácticas' },
-    { name: 'C#', category: 'backend', level: 75, icon: '💜', description: 'POO, control de errores, lógica de negocio' },
-    { name: 'Node.js', category: 'backend', level: 65, icon: '💚', description: 'Scripts y servidores simples con Express' },
-    { name: 'PHP', category: 'backend', level: 60, icon: '🐘', description: 'CRUDs y APIs básicas' },
+    { name: '.NET Core', category: 'backend', level: 45, icon: '🔵', description: 'Desarrollo de APIs REST con buenas prácticas' },
+    { name: 'C#', category: 'backend', level: 45, icon: '💜', description: 'POO, control de errores, lógica de negocio' },
+    { name: 'Node.js', category: 'backend', level: 45, icon: '💚', description: 'Scripts y servidores simples con Express' },
+    { name: 'PHP', category: 'backend', level: 37, icon: '🐘', description: 'CRUDs y APIs básicas' },
 
     // Database
-    { name: 'SQL Server', category: 'database', level: 80, icon: '🗄️', description: 'Consultas, joins y procedimientos almacenados' },
-    { name: 'PostgreSQL', category: 'database', level: 75, icon: '🐘', description: 'Modelo relacional en proyectos con Node/.NET' },
-    { name: 'MongoDB', category: 'database', level: 65, icon: '🍃', description: 'Modelo documental y operaciones CRUD' },
-    { name: 'Couchbase', category: 'database', level: 60, icon: '📊', description: 'Bases NoSQL distribuidas (conceptual y pruebas)' },
-    { name: 'MySQL', category: 'database', level: 78, icon: '🐬', description: 'Diseño de BD y normalización' },
+    { name: 'SQL Server', category: 'database', level: 45, icon: '🗄️', description: 'Consultas, joins y procedimientos almacenados' },
+    { name: 'PostgreSQL', category: 'database', level: 45, icon: '🐘', description: 'Modelo relacional en proyectos con Node/.NET' },
+    { name: 'MongoDB', category: 'database', level: 45, icon: '🍃', description: 'Modelo documental y operaciones CRUD' },
+    { name: 'Couchbase', category: 'database', level: 45, icon: '📊', description: 'Bases NoSQL distribuidas (conceptual y pruebas)' },
+    { name: 'MySQL', category: 'database', level: 45, icon: '🐬', description: 'Diseño de BD y normalización' },
 
     // DevOps & Tools
-    { name: 'Git', category: 'tools', level: 80, icon: '📝', description: 'Control de versiones con ramas y GitHub' },
-    { name: 'Docker', category: 'tools', level: 65, icon: '🐳', description: 'Contenedores para ambientes controlados' },
-    { name: 'Azure DevOps', category: 'tools', level: 60, icon: '☁️', description: 'Pipelines y gestión de tareas (aprendizaje en curso)' },
-    { name: 'Swagger/OpenAPI', category: 'tools', level: 75, icon: '📋', description: 'Documentación de endpoints en APIs REST' },
-    { name: 'Postman', category: 'tools', level: 78, icon: '🚀', description: 'Testing y validación de peticiones HTTP' }
+    { name: 'Git', category: 'tools', level: 45, icon: '📝', description: 'Control de versiones con ramas y GitHub' },
+    { name: 'Docker', category: 'tools', level: 37, icon: '🐳', description: 'Contenedores para ambientes controlados' },
+    { name: 'Azure DevOps', category: 'tools', level: 45, icon: '☁️', description: 'Pipelines y gestión de tareas (aprendizaje en curso)' },
+    { name: 'Swagger/OpenAPI', category: 'tools', level: 45, icon: '📋', description: 'Documentación de endpoints en APIs REST' },
+    { name: 'Postman', category: 'tools', level: 37, icon: '🚀', description: 'Testing y validación de peticiones HTTP' }
   ];
 
   const categories = [
@@ -114,7 +114,7 @@ const TechStack = () => {
                 <div className="space-y-2">
                   <div className="flex justify-between text-sm">
                     <span className="text-slate-400">Dominio</span>
-                    <span className="text-white font-semibold">{tech.level}%</span>
+                    <span className="text-white font-semibold">Básico</span>
                   </div>
                   <div className="w-full bg-slate-700 rounded-full h-2">
                     <div 
