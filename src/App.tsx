@@ -1,22 +1,27 @@
 import React from 'react';
-import Hero from './components/Hero';
-import About from './components/About';
-import Services from './components/Services';
-import Projects from './components/Projects';
-import WhyHireMe from './components/WhyHireMe';
-import TechStack from './components/TechStack';
-import Contact from './components/Contact';
+import { Navbar } from './components/Navbar';
+import { Hero } from './sections/Hero';
+import { History } from './sections/History';
+import { About } from './sections/About';
+import { Skills } from './sections/Skills';
+import { Services } from './sections/Services';
+import { Projects } from './sections/Projects';
+import { Contact } from './sections/Contact';
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-900 text-white">
-      <Hero />
-      <About />
-      <Services />
-      <Projects />
-      <WhyHireMe />
-      <TechStack />
-      <Contact />
+    <div className="bg-dark min-h-screen text-pearl selection:bg-neonCyan selection:text-dark">
+      <Navbar />
+      
+      <main>
+        <Hero />
+        <History />
+        <About />
+        <Skills />
+        <Services />
+        <Projects />
+        <Contact />
+      </main>
     </div>
   );
 }

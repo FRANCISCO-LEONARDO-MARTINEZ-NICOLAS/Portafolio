@@ -1,30 +1,32 @@
-# Portafolio
+# React + TypeScript + Vite
 
-¡Bienvenido a mi portafolio!
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-Este proyecto contiene mi portafolio personal desarrollado con React y TypeScript.
+Currently, two official plugins are available:
 
-## Estructura del proyecto
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- `src/`: Código fuente de la aplicación
-- `public/`: Archivos públicos y recursos
-- `package.json`: Dependencias y scripts del proyecto
+## React Compiler
 
-## ¿Cómo iniciar el proyecto?
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-1. Instala las dependencias:
-   ```bash
-   npm install
-   ```
-2. Inicia el servidor de desarrollo:
-   ```bash
-   npm run dev
-   ```
+## Expanding the Oxlint configuration
 
-## Autor
+If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
 
-Leonardo Martínez
+```json
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["react", "typescript", "oxc"],
+  "options": {
+    "typeAware": true
+  },
+  "rules": {
+    "react/rules-of-hooks": "error",
+    "react/only-export-components": ["warn", { "allowConstantExport": true }]
+  }
+}
+```
 
----
-
-> Si tienes alguna sugerencia o encuentras algún error, no dudes en abrir un issue o contactarme. 
+See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
