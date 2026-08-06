@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useScroll, useMotionValueEvent } from 'framer-motion';
 
 export const Navbar = () => {
   const { scrollY } = useScroll();
-  const [hidden, setHidden] = useState(false);
+
   const [isScrolled, setIsScrolled] = useState(false);
 
   useMotionValueEvent(scrollY, "change", (latest) => {

@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import { Bot, Code, Database, LayoutTemplate, Cpu, Smartphone, Server, PenTool, CheckCircle, Cloud, Sparkles } from 'lucide-react';
 import { Reveal } from '../components/Reveal';
@@ -70,7 +70,7 @@ export const Skills = () => {
     return 'bg-steel';
   };
 
-  const getLevelText = (level: number) => {
+  const getLevelText = (_level: number) => {
     return 'Básico';
   };
 
@@ -116,7 +116,7 @@ export const Skills = () => {
         {/* Technologies Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20 min-h-[400px] content-start">
           <AnimatePresence mode="popLayout">
-            {filteredTechnologies.map((tech, index) => (
+            {filteredTechnologies.map((tech) => (
               <motion.div
                 key={tech.name}
                 layout

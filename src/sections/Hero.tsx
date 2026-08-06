@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ChevronDown, Terminal, ArrowRight, Download, MessageCircle } from 'lucide-react';
 import { Reveal } from '../components/Reveal';

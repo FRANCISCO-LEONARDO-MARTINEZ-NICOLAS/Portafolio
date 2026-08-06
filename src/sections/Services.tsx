@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Server, Globe, Database, Building, TestTube, Users } from 'lucide-react';
 import { Reveal } from '../components/Reveal';
